@@ -1,0 +1,50 @@
+# Environment & Credentials
+.env
+*.env
+*.json
+!package.json
+!tsconfig.json
+client_secret.json
+service_account.json
+conexion-service-account.json
+token*.json
+API_Gemini.txt
+*.pem
+*.key
+
+# Python & Dependencies
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+
+# Logs & Temporary Files
+*.log
+*.tmp
+*.temp
+scratch/
+cache/
+salidas/
+*.bak
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
