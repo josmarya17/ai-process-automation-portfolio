@@ -1,0 +1,13 @@
+streamlit
+pandas
+gspread
+google-auth
+requests
+plotly
+google-api-python-client
+google-analytics-data
+google-generativeai
+functions-framework
+google-auth-oauthlib
+tenacity
+

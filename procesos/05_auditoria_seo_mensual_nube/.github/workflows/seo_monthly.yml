@@ -1,0 +1,50 @@
+name: Monthly SEO Analysis
+
+on:
+  schedule:
+    - cron: '0 0 1 * *' # Ejecutar el día 1 de cada mes a las 00:00 UTC
+  workflow_dispatch: # Permitir ejecución manual
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r cloud/requirements.txt
+
+      - name: Create credentials file
+        run: |
+          echo "${{ secrets.SERVICE_ACCOUNT_JSON }}" > cloud/service_account.json
+
+      - name: Run SEO Analysis
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          # Modificamos el script para que use el API KEY del entorno si está presente
+          python -c "
+          import sys
+          import os
+          # Actualizar config.py con la API Key del entorno si existe
+          with open('cloud/config.py', 'r') as f:
+              content = f.read()
+          if 'GEMINI_API_KEY' in os.environ:
+              content = content.replace('TU_API_KEY_AQUI', os.environ['GEMINI_API_KEY'])
+          with open('cloud/config.py', 'w') as f:
+              f.write(content)
+          
+          # Importar y ejecutar el main
+          from cloud.main import main
+          class MockRequest:
+              def get_json(self, silent=True): return {}
+          main(MockRequest())
+          "

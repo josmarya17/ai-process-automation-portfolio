@@ -1,0 +1,20 @@
+# Credenciales (SEGURIDAD)
+cloud/service_account.json
+# OAuth Tokens (SEGURIDAD)
+cloud/token_*.json
+cloud/client_secret.json
+# Esta clave ya la pusimos en config.py, pero por seguridad borraremos el .txt después
+API_gemini.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Streamlit
+.streamlit/
+
+# Docs
+*.log

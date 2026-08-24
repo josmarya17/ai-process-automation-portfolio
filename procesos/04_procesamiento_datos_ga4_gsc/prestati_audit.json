@@ -1,0 +1,522 @@
+[
+  {
+    "input_url": "https://www.prestati.com/blog/seguridad/seguridad-de-la-informacion/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/seguridad/seguridad-de-la-informacion/",
+    "canonical_url": "https://www.prestati.com/blog/seguridad/seguridad-de-la-informacion/",
+    "corrected_url": "https://www.prestati.com/blog/seguridad/seguridad-de-la-informacion/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/finanzas/educacion-financiera/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/finanzas/educacion-financiera/",
+    "canonical_url": "https://www.prestati.com/blog/finanzas/educacion-financiera/",
+    "corrected_url": "https://www.prestati.com/blog/finanzas/educacion-financiera/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/vida-crediticia/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/vida-crediticia/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/vida-crediticia/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/vida-crediticia/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/financiacion/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/financiacion/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/financiacion/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/financiacion/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/microcreditos/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/microcreditos/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/microcreditos/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/microcreditos/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/historial-crediticio/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/historial-crediticio/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/historial-crediticio/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/historial-crediticio/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/finanzas/libertad-financiera/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/finanzas/libertad-financiera/",
+    "canonical_url": "https://www.prestati.com/blog/finanzas/libertad-financiera/",
+    "corrected_url": "https://www.prestati.com/blog/finanzas/libertad-financiera/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/seguridad/datos-personales/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/seguridad/datos-personales/",
+    "canonical_url": "https://www.prestati.com/blog/seguridad/datos-personales/",
+    "corrected_url": "https://www.prestati.com/blog/seguridad/datos-personales/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/reportes-en-centrales-de-riesgo/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/reportes-en-centrales-de-riesgo/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/reportes-en-centrales-de-riesgo/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/reportes-en-centrales-de-riesgo/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/que-es-un-credito-de-libre-inversion/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/que-es-un-credito-de-libre-inversion/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/que-es-un-credito-de-libre-inversion/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/que-es-un-credito-de-libre-inversion/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/finanzas/capacidad-de-endeudamiento/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/finanzas/capacidad-de-endeudamiento/",
+    "canonical_url": "https://www.prestati.com/blog/finanzas/capacidad-de-endeudamiento/",
+    "corrected_url": "https://www.prestati.com/blog/finanzas/capacidad-de-endeudamiento/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/seguridad/fraudes-financieros/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/seguridad/fraudes-financieros/",
+    "canonical_url": "https://www.prestati.com/blog/seguridad/fraudes-financieros/",
+    "corrected_url": "https://www.prestati.com/blog/seguridad/fraudes-financieros/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/salud-financiera/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/salud-financiera/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/salud-financiera/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/salud-financiera/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/que-es-la-tasa-de-interes/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/que-es-la-tasa-de-interes/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/que-es-la-tasa-de-interes/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/que-es-la-tasa-de-interes/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/finanzas/control-de-gastos/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/finanzas/control-de-gastos/",
+    "canonical_url": "https://www.prestati.com/blog/finanzas/control-de-gastos/",
+    "corrected_url": "https://www.prestati.com/blog/finanzas/control-de-gastos/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/finanzas/sobreendeudamiento/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/finanzas/sobreendeudamiento/",
+    "canonical_url": "https://www.prestati.com/blog/finanzas/sobreendeudamiento/",
+    "corrected_url": "https://www.prestati.com/blog/finanzas/sobreendeudamiento/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/finanzas/ahorro-e-inversion/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/finanzas/ahorro-e-inversion/",
+    "canonical_url": "https://www.prestati.com/blog/finanzas/ahorro-e-inversion/",
+    "corrected_url": "https://www.prestati.com/blog/finanzas/ahorro-e-inversion/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/seguridad/robo-de-datos/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/seguridad/robo-de-datos/",
+    "canonical_url": "https://www.prestati.com/blog/seguridad/robo-de-datos/",
+    "corrected_url": "https://www.prestati.com/blog/seguridad/robo-de-datos/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/pago-anticipado/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/pagos-anticipados/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/pagos-anticipados/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/pagos-anticipados/",
+    "is_redirected": true
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/abono-a-capital/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/abono-a-capital/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/abono-a-capital/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/abono-a-capital/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/tipos-de-creditos/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/tipos-de-creditos/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/tipos-de-creditos/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/tipos-de-creditos/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/seguridad/robo-de-identidad/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/seguridad/robo-de-identidad/",
+    "canonical_url": "https://www.prestati.com/blog/seguridad/robo-de-identidad/",
+    "corrected_url": "https://www.prestati.com/blog/seguridad/robo-de-identidad/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/finanzas/inteligencia-financiera/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/finanzas/inteligencia-financiera/",
+    "canonical_url": "https://www.prestati.com/blog/finanzas/inteligencia-financiera/",
+    "corrected_url": "https://www.prestati.com/blog/finanzas/inteligencia-financiera/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/seguridad/que-es-la-firma-digital/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/seguridad/que-es-la-firma-digital/",
+    "canonical_url": "https://www.prestati.com/blog/seguridad/que-es-la-firma-digital/",
+    "corrected_url": "https://www.prestati.com/blog/seguridad/que-es-la-firma-digital/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/como-calcular-la-cuota-de-un-credito/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/como-calcular-la-cuota-de-un-credito/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/como-calcular-la-cuota-de-un-credito/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/como-calcular-la-cuota-de-un-credito/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/score-crediticio/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/score-crediticio/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/score-crediticio/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/score-crediticio/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/como-calcular-el-interes-mensual/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/como-calcular-el-interes-mensual/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/como-calcular-el-interes-mensual/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/como-calcular-el-interes-mensual/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/como-sacar-un-prestamo-por-primera-vez/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/como-sacar-un-prestamo-por-primera-vez/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/como-sacar-un-prestamo-por-primera-vez/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/como-sacar-un-prestamo-por-primera-vez/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/finanzas/que-es-un-prestamo/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/finanzas/que-es-un-prestamo/",
+    "canonical_url": "https://www.prestati.com/blog/finanzas/que-es-un-prestamo/",
+    "corrected_url": "https://www.prestati.com/blog/finanzas/que-es-un-prestamo/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/finanzas/prestamos-en-linea-en-colombia/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/finanzas/prestamos-en-linea-en-colombia/",
+    "canonical_url": "https://www.prestati.com/blog/finanzas/prestamos-en-linea-en-colombia/",
+    "corrected_url": "https://www.prestati.com/blog/finanzas/prestamos-en-linea-en-colombia/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/como-calcular-el-interes-de-un-credito/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/como-calcular-el-interes-de-un-credito/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/como-calcular-el-interes-de-un-credito/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/como-calcular-el-interes-de-un-credito/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/?p=3187",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/como-calcular-el-interes-de-un-credito/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/como-calcular-el-interes-de-un-credito/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/como-calcular-el-interes-de-un-credito/",
+    "is_redirected": true
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/tipos-de-tasas-de-interes/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/tipos-de-tasas-de-interes/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/tipos-de-tasas-de-interes/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/tipos-de-tasas-de-interes/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/microcreditos-en-colombia/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/microcreditos-en-colombia/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/microcreditos-en-colombia/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/microcreditos-en-colombia/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/finanzas/como-sacar-un-prestamo/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/finanzas/como-sacar-un-prestamo/",
+    "canonical_url": "https://www.prestati.com/blog/finanzas/como-sacar-un-prestamo/",
+    "corrected_url": "https://www.prestati.com/blog/finanzas/como-sacar-un-prestamo/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/cupos-de-credito/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/cupos-de-credito/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/cupos-de-credito/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/cupos-de-credito/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/finanzas/abono-a-capital-con-reduccion-de-plazo/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/finanzas/abono-a-capital-con-reduccion-de-plazo/",
+    "canonical_url": "https://www.prestati.com/blog/finanzas/abono-a-capital-con-reduccion-de-plazo/",
+    "corrected_url": "https://www.prestati.com/blog/finanzas/abono-a-capital-con-reduccion-de-plazo/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/como-sacar-un-prestamo-sin-vida-crediticia/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/como-sacar-un-prestamo-sin-vida-crediticia/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/como-sacar-un-prestamo-sin-vida-crediticia/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/como-sacar-un-prestamo-sin-vida-crediticia/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/tipos-de-microcreditos/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/tipos-de-microcreditos/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/tipos-de-microcreditos/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/tipos-de-microcreditos/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/como-conseguir-un-prestamo-rapido/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/como-conseguir-un-prestamo-rapido/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/como-conseguir-un-prestamo-rapido/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/como-conseguir-un-prestamo-rapido/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/como-funcionan-los-prestamos-en-linea/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/como-funcionan-los-prestamos-en-linea/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/como-funcionan-los-prestamos-en-linea/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/como-funcionan-los-prestamos-en-linea/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/finanzas/inclusion-financiera/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/finanzas/inclusion-financiera/",
+    "canonical_url": "https://www.prestati.com/blog/finanzas/inclusion-financiera/",
+    "corrected_url": "https://www.prestati.com/blog/finanzas/inclusion-financiera/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/que-pasa-si-no-se-paga-un-prestamo-en-linea/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/que-pasa-si-no-se-paga-un-prestamo-en-linea/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/que-pasa-si-no-se-paga-un-prestamo-en-linea/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/que-pasa-si-no-se-paga-un-prestamo-en-linea/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/como-pedir-un-prestamo-sin-nomina/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/como-pedir-un-prestamo-sin-nomina/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/como-pedir-un-prestamo-sin-nomina/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/como-pedir-un-prestamo-sin-nomina/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/cual-es-la-mejor-plataforma-de-prestamos-en-linea/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/cual-es-la-mejor-plataforma-de-prestamos-en-linea/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/cual-es-la-mejor-plataforma-de-prestamos-en-linea/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/cual-es-la-mejor-plataforma-de-prestamos-en-linea/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/como-funcionan-los-microcreditos/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/como-funcionan-los-microcreditos/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/como-funcionan-los-microcreditos/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/como-funcionan-los-microcreditos/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/finanzas/que-es-una-fianza/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/finanzas/que-es-una-fianza/",
+    "canonical_url": "https://www.prestati.com/blog/finanzas/que-es-una-fianza/",
+    "corrected_url": "https://www.prestati.com/blog/finanzas/que-es-una-fianza/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/refinanciamiento/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/refinanciamiento/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/refinanciamiento/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/refinanciamiento/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/que-es-un-credito-en-linea/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/que-es-un-credito-en-linea/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/que-es-un-credito-en-linea/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/que-es-un-credito-en-linea/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/finanzas/estres-financiero/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/finanzas/estres-financiero/",
+    "canonical_url": "https://www.prestati.com/blog/finanzas/estres-financiero/",
+    "corrected_url": "https://www.prestati.com/blog/finanzas/estres-financiero/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/amortizacion/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/amortizacion/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/amortizacion/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/amortizacion/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/apalancamiento-financiero/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/apalancamiento-financiero/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/apalancamiento-financiero/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/apalancamiento-financiero/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/credito-de-consumo/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/credito-de-consumo/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/credito-de-consumo/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/credito-de-consumo/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/creditos-para-emprendedores/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/creditos-para-emprendedores/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/creditos-para-emprendedores/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/creditos-para-emprendedores/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/finanzas/poder-adquisitivo/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/finanzas/poder-adquisitivo/",
+    "canonical_url": "https://www.prestati.com/blog/finanzas/poder-adquisitivo/",
+    "corrected_url": "https://www.prestati.com/blog/finanzas/poder-adquisitivo/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/creditos-para-estudiar/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/creditos-para-estudiar/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/creditos-para-estudiar/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/creditos-para-estudiar/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/finanzas/retanqueo/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/finanzas/retanqueo/",
+    "canonical_url": "https://www.prestati.com/blog/finanzas/retanqueo/",
+    "corrected_url": "https://www.prestati.com/blog/finanzas/retanqueo/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/finanzas/plan-de-ahorro/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/finanzas/plan-de-ahorro/",
+    "canonical_url": "https://www.prestati.com/blog/finanzas/plan-de-ahorro/",
+    "corrected_url": "https://www.prestati.com/blog/finanzas/plan-de-ahorro/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/prestamos/prestamos-para-pensionados/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/prestamos/prestamos-para-pensionados/",
+    "canonical_url": "https://www.prestati.com/blog/prestamos/prestamos-para-pensionados/",
+    "corrected_url": "https://www.prestati.com/blog/prestamos/prestamos-para-pensionados/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/seguro/que-es-un-seguro-de-vida/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/seguro/que-es-un-seguro-de-vida/",
+    "canonical_url": "https://www.prestati.com/blog/seguro/que-es-un-seguro-de-vida/",
+    "corrected_url": "https://www.prestati.com/blog/seguro/que-es-un-seguro-de-vida/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/seguro/cual-es-el-mejor-seguro-de-salud-en-colombia/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/seguro/cual-es-el-mejor-seguro-de-salud-en-colombia/",
+    "canonical_url": "https://www.prestati.com/blog/seguro/cual-es-el-mejor-seguro-de-salud-en-colombia/",
+    "corrected_url": "https://www.prestati.com/blog/seguro/cual-es-el-mejor-seguro-de-salud-en-colombia/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/seguro/cual-es-el-mejor-seguro-educativo-en-colombia/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/seguro/cual-es-el-mejor-seguro-educativo-en-colombia/",
+    "canonical_url": "https://www.prestati.com/blog/seguro/cual-es-el-mejor-seguro-educativo-en-colombia/",
+    "corrected_url": "https://www.prestati.com/blog/seguro/cual-es-el-mejor-seguro-educativo-en-colombia/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/seguro/cuanto-vale-un-seguro-de-vida/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/seguro/cuanto-vale-un-seguro-de-vida/",
+    "canonical_url": "https://www.prestati.com/blog/seguro/cuanto-vale-un-seguro-de-vida/",
+    "corrected_url": "https://www.prestati.com/blog/seguro/cuanto-vale-un-seguro-de-vida/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/seguro/que-es-un-seguro-de-salud/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/seguro/que-es-un-seguro-de-salud/",
+    "canonical_url": "https://www.prestati.com/blog/seguro/que-es-un-seguro-de-salud/",
+    "corrected_url": "https://www.prestati.com/blog/seguro/que-es-un-seguro-de-salud/",
+    "is_redirected": false
+  },
+  {
+    "input_url": "https://www.prestati.com/blog/seguro/cual-es-el-mejor-seguro-para-mascotas/",
+    "status_code": 200,
+    "final_url": "https://www.prestati.com/blog/seguro/cual-es-el-mejor-seguro-para-mascotas/",
+    "canonical_url": "https://www.prestati.com/blog/seguro/cual-es-el-mejor-seguro-para-mascotas/",
+    "corrected_url": "https://www.prestati.com/blog/seguro/cual-es-el-mejor-seguro-para-mascotas/",
+    "is_redirected": false
+  }
+]
