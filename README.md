@@ -25,7 +25,7 @@ ai-process-automation-portfolio/
 ├── .gitignore                             # Reglas de seguridad y exclusión de archivos
 ├── .env.example                           # Plantilla maestra de variables de entorno
 └── procesos/                              # Directorio de Procesos Automatizados Únicos
-    ├── 01_agente_ia_odoo_multimodal/      # 🤖 Asistente Multimodal (Voz, WhatsApp, Web) para Odoo ERP
+    ├── 01_agente_ia_odoo_multimodal/      # 🤖 Asistente Multimodal para Odoo ERP
     ├── 02_conciliacion_bancaria_odoo/     # 🏦 Motor de Conciliación Bancaria Automática con Odoo ERP
     ├── 03_gestion_documental_sgc/         # 📄 Sistema de Generación Documental y Flujogramas SGC
     ├── 04_procesamiento_datos_ga4_gsc/    # 📊 Pipeline ETL de Analítica Web (GA4 y Search Console)
@@ -37,8 +37,8 @@ ai-process-automation-portfolio/
 ### 🔍 Detalle Breve de cada Carpeta de Proceso
 
 #### 🤖 1. [`procesos/01_agente_ia_odoo_multimodal/`](procesos/01_agente_ia_odoo_multimodal/)
-- **¿Qué contiene?**: Código fuente completo del asistente virtual multimodal que interactúa en tiempo real con **Odoo ERP** mediante la API XML-RPC. Incluye interfaz de voz (Speech-to-Text), panel web en Streamlit y conector de mensajería (WhatsApp).
-- **Caso de uso**: Permite a personal de campo y ejecutivos consultar niveles de inventario, validar estatus de pedidos de venta y datos de clientes usando lenguaje natural por voz o texto.
+- **¿Qué contiene?**: Código fuente completo del asistente virtual multimodal que interactúa en tiempo real con **Odoo ERP** mediante la API XML-RPC. .
+- **Caso de uso**: Permite a personal de campo y ejecutivos consultar niveles de inventario, validar estatus de pedidos de venta y datos de clientes usando lenguaje natural por texto.
 
 #### 🏦 2. [`procesos/02_conciliacion_bancaria_odoo/`](procesos/02_conciliacion_bancaria_odoo/)
 - **¿Qué contiene?**: Algoritmos de coincidencia difusa (*Fuzzy Matching*) y clasificadores con IA para procesar extractos bancarios masivos en formatos Excel (`.xlsx`) y CSV, vinculándolos automáticamente con las facturas abiertas en Odoo ERP.
@@ -70,52 +70,6 @@ ai-process-automation-portfolio/
 
 ---
 
-## 🏗 Arquitectura del Sistema
-
-```mermaid
-graph TD
-    subgraph Canales e Interfaces
-        U1[Voz y Panel Web]
-        U2[WhatsApp y Mensajería]
-        U3[Analistas Ejecutivos]
-    end
-
-    subgraph Procesos Automatizados Únicos
-        P1[01: Agente IA Odoo Multimodal]
-        P2[02: Conciliación Bancaria Odoo]
-        P3[03: Gestión Documental SGC]
-        P4[04: Procesamiento Datos GA4/GSC]
-        P5[05: Auditoría SEO Mensual Nube]
-    end
-
-    subgraph Plataformas Empresariales
-        ODOO[(Odoo ERP Database)]
-        GA4[(Google Analytics 4)]
-        GSC[(Google Search Console)]
-        DOCS[(Bóveda Documental SGC)]
-    end
-
-    U1 --> P1
-    U2 --> P1
-    U3 --> P4
-    P1 <-->|XML-RPC / JSON-RPC| ODOO
-    P2 <-->|Extractos Bancarios y Clasificador IA| ODOO
-    P3 -->|Draw.io / SVG / Docx| DOCS
-    P4 <-->|Google Analytics Data API| GA4
-    P4 <-->|Search Console API| GSC
-    P5 -->|Cloud Trigger / Cron Job| P4
-```
-
----
-
-## 🔒 Seguridad y Sanitización
-
-Este proyecto cumple con estándares estrictos de **seguridad y sanitización**:
-- **0 Credenciales Expuestas**: Se eliminaron todas las claves API, tokens y contraseñas.
-- **Anonimización Corporativa**: Se reemplazaron los nombres reales de empresas clientes por estándares corporativos de prueba.
-- **Archivos de Configuración**: Se incluyen plantillas `.env.example` y un `.gitignore` exhaustivo.
-
----
 
 ## 👤 Autora y Contacto
 
