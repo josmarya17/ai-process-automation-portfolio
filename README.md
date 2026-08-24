@@ -25,7 +25,7 @@ ai-process-automation-portfolio/
 ├── .gitignore                             # Reglas de seguridad y exclusión de archivos
 ├── .env.example                           # Plantilla maestra de variables de entorno
 └── processes/                             # Directorio de Procesos Automatizados Únicos
-    ├── 01_agente_ia_odoo_multimodal/      # 🤖 Asistente Multimodal (Voz, WhatsApp, Web) para Odoo ERP
+    ├── 01_agente_ia_odoo_multimodal/      # 🤖 Asistente Multimodal para Odoo ERP
     ├── 02_conciliacion_bancaria_odoo/     # 🏦 Motor de Conciliación Bancaria Automática con Odoo ERP
     ├── 03_gestion_documental_sgc/         # 📄 Sistema de Generación Documental y Flujogramas SGC
     ├── 04_pipeline_etl_ga4_gsc/           # 📊 Pipeline ETL de Analítica Web (GA4 y Search Console)
@@ -37,8 +37,8 @@ ai-process-automation-portfolio/
 ### 🔍 Detalle de cada Carpeta de Proceso Automatizado
 
 #### 🤖 1. [`processes/01_agente_ia_odoo_multimodal/`](processes/01_agente_ia_odoo_multimodal/)
-- **¿Qué contiene?**: Código fuente completo del asistente virtual multimodal que interactúa en tiempo real con **Odoo ERP** mediante la API XML-RPC. Incluye interfaz de voz (Speech-to-Text), dashboard web en Streamlit y conector de mensajería (WhatsApp).
-- **Caso de uso**: Permite a personal de campo y ejecutivos consultar niveles de inventario, validar estatus de pedidos de venta y datos de clientes usando lenguaje natural por voz o texto.
+- **¿Qué contiene?**: Código fuente completo del asistente virtual multimodal que interactúa en tiempo real con **Odoo ERP** mediante la API XML-RPC.
+- **Caso de uso**: Permite a personal de campo y ejecutivos consultar niveles de inventario, validar estatus de pedidos de venta y datos de clientes usando lenguaje natural por texto.
 
 #### 🏦 2. [`processes/02_conciliacion_bancaria_odoo/`](processes/02_conciliacion_bancaria_odoo/)
 - **¿Qué contiene?**: Algoritmos de coincidencia difusa (*Fuzzy Matching*) y clasificadores con IA para procesar extractos bancarios masivos en formatos Excel (`.xlsx`) y CSV, vinculándolos automáticamente con las facturas abiertas en Odoo ERP.
