@@ -1,0 +1,42 @@
+========================================== 
+Ejecucion iniciada: vie. 12/06/2026  8:53:01,49 
+C:\Users\Sist-JPinto\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.10) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+--- RUNNING IN PRODUCTION MODE (Target: yesterday 2026-06-11) ---
+Loading journal mappings from Excel: C:\Users\Sist-JPinto\Desktop\integracion_bancaria\Bancos_Venezolanos VES y USD.xlsx
+Successfully loaded 10 journal mappings.
+Successfully authenticated with Google Drive API (oauth).
+Scanning Google Drive folder for files...
+Found 3 file(s) total in Google Drive folder.
+No files matched target date 2026-06-11. Silently exiting.
+Ejecucion finalizada con exito. 
+========================================== 
+ 
+========================================== 
+Ejecucion iniciada: vie. 12/06/2026  8:53:40,27 
+C:\Users\Sist-JPinto\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.10) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+--- RUNNING IN PRODUCTION MODE (Target: yesterday 2026-06-11) ---
+Loading journal mappings from Excel: C:\Users\Sist-JPinto\Desktop\integracion_bancaria\Bancos_Venezolanos VES y USD.xlsx
+Successfully loaded 10 journal mappings.
+Successfully authenticated with Google Drive API (oauth).
+Scanning Google Drive folder for files...
+Found 3 file(s) total in Google Drive folder.
+No files matched target date 2026-06-11. Silently exiting.
+Ejecucion finalizada con exito. 
+========================================== 
+ 
+========================================== 
+Ejecucion iniciada: vie. 12/06/2026  8:53:44,26 
+C:\Users\Sist-JPinto\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.10) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+--- RUNNING IN PRODUCTION MODE (Target: yesterday 2026-06-11) ---
+Loading journal mappings from Excel: C:\Users\Sist-JPinto\Desktop\integracion_bancaria\Bancos_Venezolanos VES y USD.xlsx
+Successfully loaded 10 journal mappings.
+Successfully authenticated with Google Drive API (oauth).
+Scanning Google Drive folder for files...
+Found 3 file(s) total in Google Drive folder.
+No files matched target date 2026-06-11. Silently exiting.
+Ejecucion finalizada con exito. 
+========================================== 
+ 
