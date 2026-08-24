@@ -68,52 +68,6 @@ ai-process-automation-portfolio/
 | **04. Pipeline ETL GA4 & GSC** | Google Analytics Data API + Insights LLM | **20+ horas ahorradas/mes** en elaboración de reportes de analítica orgánicos. |
 | **05. Auditoría SEO Cloud** | GitHub Actions Cron + Cloud Functions | Diagnóstico y monitoreo técnico SEO 100% automatizado sin costo operativo. |
 
----
-
-## 🏗 Arquitectura del Sistema
-
-```mermaid
-graph TD
-    subgraph Canales e Interfaces
-        U1[Voz y Dashboard Web]
-        U2[WhatsApp y Mensajería]
-        U3[Analistas Ejecutivos]
-    end
-
-    subgraph Procesos Automatizados Únicos
-        P1[01: Agente IA Odoo Multimodal]
-        P2[02: Conciliación Bancaria Odoo]
-        P3[03: Generador Documental SGC]
-        P4[04: Pipeline ETL GA4/GSC]
-        P5[05: Auditoría SEO Mensual Cloud]
-    end
-
-    subgraph Plataformas Empresariales
-        ODOO[(Odoo ERP Database)]
-        GA4[(Google Analytics 4)]
-        GSC[(Google Search Console)]
-        DOCS[(Bóveda Documental SGC)]
-    end
-
-    U1 --> P1
-    U2 --> P1
-    U3 --> P4
-    P1 <-->|XML-RPC / JSON-RPC| ODOO
-    P2 <-->|Extractos Bancarios y Clasificador IA| ODOO
-    P3 -->|Draw.io / SVG / Docx| DOCS
-    P4 <-->|Google Analytics Data API| GA4
-    P4 <-->|Search Console API| GSC
-    P5 -->|Cloud Trigger / Cron Job| P4
-```
-
----
-
-## 🔒 Seguridad y Sanitización
-
-Este proyecto cumple con estándares estrictos de **seguridad y sanitización**:
-- **0 Credenciales Expuestas**: Se eliminaron todas las claves API, tokens y contraseñas.
-- **Anonimización Corporativa**: Se reemplazaron los nombres reales de empresas clientes por estándares corporativos de prueba.
-- **Archivos de Configuración**: Se incluyen plantillas `.env.example` y un `.gitignore` exhaustivo.
 
 ---
 
