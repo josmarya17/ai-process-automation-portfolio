@@ -1,0 +1,109 @@
+Especificaciones Técnicas y Funcionales: Integración Bancaria "Zero-Touch" (RPA + Odoo 17)
+
+1. Contexto Estratégico de la Automatización
+
+La arquitectura financiera de alto nivel está evolucionando del procesamiento manual y reactivo de archivos planos —típico de entornos legados como SAP— hacia un ecosistema de integración continua y proactiva en Odoo 17. Este cambio de paradigma, definido como modelo "Zero-Touch", tiene como objetivo principal la erradicación total del ingreso manual de datos. Basándonos en la capacidad de orquestación entre RPA y el ERP, esta integración está diseñada para reducir el 95% de la carga operativa en el cierre mensual. Al automatizar la ingesta, el departamento de tesorería se libera de la latencia operativa, permitiendo un flujo de caja en tiempo real y una toma de decisiones basada en datos íntegros.
+
+La superioridad técnica de la interconexión directa vía API (JSON-RPC) frente al modelo tradicional de carpetas compartidas es indiscutible: la API garantiza la inmediatez de la información financiera y elimina los riesgos de seguridad y sincronización asociados a los sistemas de archivos. Mientras que el intercambio de archivos genera silos de información, la inyección API permite que cada movimiento bancario sea visible en el ERP segundos después de su procesamiento. Esta visión estratégica de agilidad financiera se sostiene sobre una arquitectura de middleware robusta y escalable.
+
+
+--------------------------------------------------------------------------------
+
+
+2. Arquitectura de Integración: El Middleware Inteligente
+
+El flujo de trabajo se desglosa en una sinergia entre el RPA extractor y el agente inyector, operando bajo un modelo de API-Push que garantiza la ejecución de la lógica de negocio de Odoo.
+
+* RPA Existente (Extractor): Actúa como el agente de front-end bancario. Su función es la navegación por los portales institucionales para la extracción de movimientos en archivos TXT, organizados por cuenta y fecha.
+* Bot Antigravity (Transformador e Inyector): Funciona como el middleware crítico. Monitorea los repositorios de almacenamiento (locales o nube), normaliza la data heterogénea y realiza la inyección transaccional.
+
+Protocolos y Parámetros Técnicos:
+
+* Protocolo de Comunicación: JSON-RPC / XML-RPC sobre TLS. Es imperativo el uso de la capa API/ORM en lugar de conexiones directas a PostgreSQL para asegurar que se activen todas las validaciones y "constraints" del sistema.
+* Punto de Entrada: Modelo account.bank.statement.line.
+* Estado de Entrada: Los registros deben inyectarse en estado "Borrador" (Draft). Esta decisión arquitectónica permite mantener un esquema de "human-in-the-loop", donde el equipo de tesorería supervisa el 15% de las excepciones complejas antes de la confirmación final.
+
+La inyección por lotes con validación de saldo asegura que la suma secuencial de las líneas inyectadas sea consistente con el balance reportado por la institución, blindando la integridad contable antes de pasar a la fase de normalización de datos bancarios nacionales.
+
+
+--------------------------------------------------------------------------------
+
+
+3. Diccionario de Equivalencias de Tokens Bancarios
+
+La limpieza de datos es el paso previo obligatorio para la codificación. Los bancos nacionales utilizan códigos de movimiento (tokens) propietarios que deben ser traducidos semánticamente para que el motor de conciliación de Odoo procese la información con precisión quirúrgica.
+
+A continuación, se detalla el diccionario de equivalencias técnicas para el Banco Mercantil, incluyendo las variantes detectadas:
+
+ID Numérico / Token	Descripción del Movimiento	Tipo de Operación
+0770 / 070	Nota de Crédito / Abonos Recibidos	Ingreso
+0670 / 0680	Comisiones Bancarias / Gastos Administrativos	Gasto (Egreso)
+5770 / 5670	Movimientos de Cuenta Custodia (USD)	Ingreso / Egreso
+
+Este diccionario elimina cualquier ambigüedad en la interpretación de extractos por parte de la IA de Odoo. Especial atención requiere el token 5770, que identifica específicamente los flujos de "Cuenta Custodia", permitiendo una segregación clara de la liquidez en divisas. Esta identificación es el vínculo motor para la aplicación automática de la lógica matemática de signos.
+
+
+--------------------------------------------------------------------------------
+
+
+4. Lógica de Conversión de Signos y Reglas de Transformación
+
+Para que el motor de IA Matching de Odoo funcione correctamente, la normalización de importes es un requerimiento mandatorio. Sin la aplicación de signos negativos a los egresos, el sistema no podrá vincular automáticamente las líneas de banco con las "Facturas de Proveedor" (cuentas por pagar), rompiendo la meta de automatización.
+
+El Bot Antigravity debe ejecutar la siguiente lógica de transformación:
+
+Flujo Lógico de Procesamiento:
+
+1. Identificación del Token: Lectura del código de movimiento en el TXT original.
+2. Clasificación de Naturaleza: Determinación de flujo (Ingreso vs. Egreso).
+3. Ejecución de Pseudo-código:
+  * IF token IN [0670, 0680, 5670, 0675] THEN amount = ABS(amount) * -1
+  * ELSE IF token IN [0770, 070, 5770] THEN amount = ABS(amount)
+
+Esta normalización es el prerrequisito indispensable para que el motor de conciliación alcance el 85% de efectividad proyectado. Al inyectar importes con el signo correcto, se habilita el emparejamiento autónomo, reduciendo la intervención humana a la gestión de excepciones y no a la corrección de data.
+
+
+--------------------------------------------------------------------------------
+
+
+5. Protocolo de Integridad: El "Escudo" contra Duplicados
+
+Para garantizar una base de datos libre de redundancias, se implementa el uso del campo técnico unique_import_id como una huella digital inmutable de la transacción.
+
+Algoritmo de Validación de Integridad: El Bot Antigravity debe generar una clave única mediante una función Hash (MD5 o SHA-256) concatenando los campos: Referencia + Fecha + Monto. Flujo de Consulta: El agente debe consultar a Odoo si el hash del unique_import_id existe antes de proceder con la inserción por API.
+
+Gestión de Excepciones (Log de Omisiones): En caso de detectar un duplicado, el registro debe omitirse. Es un requisito de auditoría obligatorio que el bot genere un archivo .txt de log de omisiones almacenado en la misma ruta de almacenamiento que los archivos de origen. Este log debe detallar el nombre del archivo original, la fecha del ciclo y la referencia del registro omitido para asegurar una trazabilidad total. La eliminación de revisiones manuales de duplicados garantiza la integridad y prevención de errores desde la fuente.
+
+
+--------------------------------------------------------------------------------
+
+
+6. Mapeo de Diarios Bancarios (journal_id)
+
+La asignación de movimientos debe ser estrictamente técnica. Por razones de estabilidad, el bot no debe utilizar nombres comerciales (ej. "Banco Mercantil") en su lógica de inyección, ya que cualquier cambio en la interfaz de Odoo por parte del usuario invalidaría el script.
+
+Requisitos de Configuración e Inmutabilidad:
+
+* Uso de IDs Técnicos: El mapeo debe realizarse utilizando el journal_id (Integer) registrado en la instancia de AWS.
+* API Keys Únicas: Generación de tokens de acceso exclusivos por bot, eliminando el riesgo de credenciales de usuario compartidas.
+* Permisos Restringidos (ACL): Configuración de un perfil de bot con acceso limitado exclusivamente a la creación (create) en el modelo de líneas de extracto, sin permisos de edición o borrado.
+
+Este enfoque asegura que el script del Bot Antigravity sea inmune a cambios en la UI y que la inyección de datos sea un proceso de alta velocidad y bajo mantenimiento.
+
+
+--------------------------------------------------------------------------------
+
+
+7. Seguridad, Auditoría y Escalabilidad
+
+El diseño final de la solución contempla una robustez industrial preparada para el crecimiento de la organización:
+
+* Auditoría de Origen: Cada registro inyectado en Odoo llevará de forma mandatoria el metadato "Creado por RPA-Bot" con su marca de tiempo, cumpliendo con los estándares de auditoría interna.
+* Rendimiento y Frecuencia: Aunque el monitoreo actual se realiza cada hora (rhythm operativo), la arquitectura es técnicamente capaz de soportar ciclos de carga cada 15 minutos para más de 50 cuentas bancarias simultáneas sin degradación de performance.
+* Hoja de Ruta (Deployment): El despliegue seguirá un plan de cuatro fases: Definición, Desarrollo, Testing (Staging) y Go-Live con fase de Hypercare para monitorear la estabilidad de los saldos inyectados durante el primer ciclo mensual.
+
+Este diseño técnico transforma al departamento de tesorería de un centro de carga de datos manual en un centro de análisis de excepciones complejas, elevando la productividad operativa y garantizando la confiabilidad total de la información financiera en Odoo 17.# Final Document Output rule.
+
+The title must be formatted as Markdown H1 (#).
+
+The output must be only the final document.
